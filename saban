@@ -1,0 +1,64 @@
+ class Main {
+
+  public static void main( String[] args) {
+
+  int a,b,c;
+    int maxnumber;
+    int ortnumber;
+    int minnumber;
+    
+    
+   
+    
+  
+  
+    
+  
+    Scanner input1= new Scanner(System.in ) ;
+    System.out.println(" 1. Sayıyı giriniz :");
+     a= input1.nextInt();
+    Scanner input2= new Scanner(System.in ) ;
+    System.out.println(" 2. Sayıyı giriniz :");
+    b= input2.nextInt();
+    Scanner input3= new Scanner(System.in ) ;
+    System.out.println(" 3. Sayıyı giriniz :");
+    c= input3.nextInt();
+    
+    
+if((b>a) &&  (a > c)){
+      
+  
+     maxnumber= b;
+     ortnumber=a;
+     minnumber=c;
+  System.out.print(maxnumber );
+  System.out.print(" " + ortnumber + " " );
+  System.out.print(minnumber );
+  
+ }else if 
+  ((c>a) && (a > b) ) {
+    
+  
+      
+    
+    maxnumber= c;
+     ortnumber=a;
+     minnumber=b;
+  System.out.print(maxnumber );
+  System.out.print(" " + ortnumber + " " );
+  System.out.print(minnumber );}
+  }
+  
+
+
+  }
+    
+    
+  
+
+  
+
+
+    
+  
+    
